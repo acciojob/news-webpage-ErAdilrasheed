@@ -1,1 +1,57 @@
-/*  your css code here. If applicable */
+.container{
+	background:#ccc;
+	width:900px;
+}
+.heading{
+	background:darkblue;
+	color:white;
+	text-align:center;
+	height:50px;
+}
+h1{
+	padding:8px;
+}
+.article{
+	background:#ccc;
+	display: flex;
+    justify-content: space-between; /* or center / space-around / space-evenly */
+    gap: 20px;
+	width:900px;
+	border: 1px solid lightgray;
+	border-radius: 15px;
+}
+.article1{
+	width:200px;
+	height:150px;
+	background:white;
+	margin-left:20px;
+	margin-top:20px;
+	border: 1px solid lightgray;
+	border-radius:10px;
+	text-align:center;
+}
+.article2{
+	width:300px;
+	height:200px;
+	background:white;
+	margin-left:20px;
+	margin-top:20px;
+	border: 1px solid lightgray;
+	border-radius:10px;
+	text-align:center;
+}
+.article3{
+	width:200px;
+	height:450px;
+	margin-right:20px;
+	background:white;
+	margin-left:20px;
+	margin-top:20px;
+	border: 1px solid lightgray;
+	border-radius:10px;
+	text-align:center;
+}
+img{
+	width:150px;
+	padding:10px;
+}

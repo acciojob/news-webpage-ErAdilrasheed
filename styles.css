@@ -6,6 +6,7 @@ body{
 	width:900px;
 }
 .header{
+	width:900px;
 	background:#011e29;
 	color:white;
 	text-align:center;
@@ -17,11 +18,9 @@ h2{
 .article{
 	background:#ccc;
 	display: flex;
-    justify-content: space-between; /* or center / space-around / space-evenly */
-    gap: 20px;
+    justify-content: space-between;
 	width:900px;
 	border: 1px solid lightgray;
-	border-radius: 15px;
 }
 .latest-news-section{
 	width:200px;
@@ -45,7 +44,7 @@ h2{
 }
 .pictorial-news-section{
 	width:200px;
-	height:450px;
+	height:400px;
 	margin-right:20px;
 	background:white;
 	margin-left:20px;
